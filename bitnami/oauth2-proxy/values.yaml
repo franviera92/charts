@@ -358,6 +358,7 @@ configuration:
   ## @param configuration.google.existingSecret Existing secret containing Google Service Account
   ##
   google:
+    useApplicationDefaultCredentials: false
     enabled: false
     adminEmail: ""
     groups: []
